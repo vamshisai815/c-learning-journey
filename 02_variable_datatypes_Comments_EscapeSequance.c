@@ -32,10 +32,24 @@ int main(){
     // The initial value of the character
     char charcter = 'Y';
     printf("The intial value of the Character:%c\n",charcter);
-    return 0;
-}
+  
     
 
-    // Data Tyoe in c 
+    // input to the user in c 
+
+    int a;
+    printf("Enter Any integer:");
+    scanf("%d",&a);
+    printf("You entered:%d\n",a);
     
 
+
+    // Data Types in c
+
+    int a;
+    char b;
+    float c;
+    char[20];
+    printf("Enter Your Name: ");
+    scanf("%d",&a);   
+    printf("");
