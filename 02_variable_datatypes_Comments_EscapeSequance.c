@@ -46,10 +46,29 @@ int main(){
 
     // Data Types in c
 
-    int a;
+    int A;
     char b;
     float c;
-    char[20];
+    char d[20];
+
+     
     printf("Enter Your Name: ");
-    scanf("%d",&a);   
-    printf("");
+    scanf("%19s",&d);   
+    printf("Name: %19s\n",d);
+
+    printf("Enter Your Roll No: ");
+    scanf("%d",&A);
+    printf("Roll no :%d\n",A);
+
+    printf("Enter Your Marks:");
+    scanf("%f",&c);
+    printf("Marks: %f\n",c);
+
+    printf("Enter Your Grade: ");
+    scanf(" %c", &b);
+    printf("Grade: %c\n", b);
+    
+    return 0;
+}
+
+
