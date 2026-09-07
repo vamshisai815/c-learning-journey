@@ -8,17 +8,17 @@ int main()
     //a) using hard coded inputs
     //b) using input supplied by the user
 
-    // int length ,width;
+    int length ,width;
     
-    // printf("Enter The length 0f the rectangle\n: ");
-    // scanf("%d",&length);
+    printf("Enter The length 0f the rectangle\n: ");
+    scanf("%d",&length);
 
-    // printf("Enter The Width of the rectangle\n: ");
-    // scanf("%d", &width);
+    printf("Enter The Width of the rectangle\n: ");
+    scanf("%d", &width);
 
-    // printf("Length of the Rectangle: %d\n",length);
-    // printf("WIdth of the Rectangle:%d\n", width);
-    // printf("Area of the Rectangle : %d\n", length*width);
+    printf("Length of the Rectangle: %d\n",length);
+    printf("WIdth of the Rectangle:%d\n", width);
+    printf("Area of the Rectangle : %d\n", length*width);
 
 
     //2 Calculate the area of a circle and modify the same program to calcualte the volume of a cylinder given its radius and height 

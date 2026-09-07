@@ -6,49 +6,49 @@ int main () {
     // Take a name ,age, course, and city as input
     // print them in a property formatted information
 
-    // char Name[10];
-    // int age;
-    // char course[20];
-    // char city[15];
+    char Name[10];
+    int age;
+    char course[20];
+    char city[15];
 
-    // printf("Enter Your Name: ");
-    // scanf(" %9s", &Name);
+    printf("Enter Your Name: ");
+    scanf(" %9s", &Name);
 
-    // printf("Enter Your age: ");
-    // scanf("%d",&age);
+    printf("Enter Your age: ");
+    scanf("%d",&age);
 
-    // printf("Enter Your Course: ");
-    // scanf("%19s",&course);
+    printf("Enter Your Course: ");
+    scanf("%19s",&course);
 
-    // printf("Enter Your City: ");
-    // scanf("%14s",&city);
+    printf("Enter Your City: ");
+    scanf("%14s",&city);
 
-    // printf("-------------- FULL DETAILS-------------\n");
+    printf("-------------- FULL DETAILS-------------\n");
 
-    // printf("Name   :  %s\n",Name);
-    // printf("Age    :  %d\n",age);
-    // printf("Course :  %s\n",course);
-    // printf("City   :  %s\n",city);
+    printf("Name   :  %s\n",Name);
+    printf("Age    :  %d\n",age);
+    printf("Course :  %s\n",course);
+    printf("City   :  %s\n",city);
     
 
     // 2 Two Numbers
     // Take two integers from the user 
     // print their sum
     
-    // int num1;
-    // int num2;
-    // int total= num1 + num2;
+    int num1;
+    int num2;
+    int total= num1 + num2;
 
-    // printf("Enter first number: ");
-    // scanf(" %d",&num1);
+    printf("Enter first number: ");
+    scanf(" %d",&num1);
 
-    // printf("Enter Second Number: ");
-    // scanf(" %d", &num2);
+    printf("Enter Second Number: ");
+    scanf(" %d", &num2);
 
 
-    // printf("First Number: %d\n", num1);
-    // printf("Second Number: %d\n", num2);
-    // printf("Total: %d\n", total);
+    printf("First Number: %d\n", num1);
+    printf("Second Number: %d\n", num2);
+    printf("Total: %d\n", total);
 
     //3 Basic Calculator
     // Take two numbers and print 
@@ -65,9 +65,9 @@ int main () {
     printf("Multiplication: %d\n", number_1 *number_2);
     printf("Divison: %d\n",number_2/number_1);
 
-    // 4 Rectangle 
-    // Take length and width 
-    // Calculate Area
+    // // 4 Rectangle 
+    // // Take length and width 
+    // // Calculate Area
     
     int length = 200;
     int width = 100;
